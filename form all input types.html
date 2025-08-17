@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/contact-me"">
+        1. <label for="email">Username :</label>
+        <input type="text" id="email" placeholder="Email or Mob no." required="true"><br>
+        2. <label for="password">Password : </label>
+        <input id="password" type="password"><br>
+        3. Date: <input type="date"><br>
+        4. File: <input type="file"><br>
+        5. Color: <input type="color"><br>
+        6. Price Range: <input type="range"><br>
+        7. Click Me <input type="button" value="clicked"> <br>
+        8. Gender:
+         <label for="male">Male</label>
+         <input type="radio" name="gender" id="male" value="male"> &nbsp;&nbsp; <!--Label for "male" dene se aur input me id define krne se male me bhi click krkr ho jata hain-->
+         <label for="female">Female</label>
+         <input type="radio" name="gender" id="female" value="female"> &nbsp;&nbsp;
+         <label for="Others">Others</label>
+         <input type="radio" name="gender" id="others" value="others"> <br>
+        <!--9. Checkbox: -->
+        9. Languages Known <br>
+        <label for="c">C</label>
+        <input type="checkbox" name="lang" id="c"> <br>
+        <label for="java">Java</label>
+        <input type="checkbox" name="lang" id="java"> <br>
+        <label for="python">Python</label>
+        <input type="checkbox" name="lang" id="python"> <br>
+        <!--10. Dropdown-->
+        <label for="country">10. Select your Country</label>
+        <select name="country" id="country">
+            <option value="India">India</option>
+             <option value="United States">United States</option> 
+             <option value="UK">UK</option> 
+             <option value="Japan">Japan</option>
+             <option value="Russia">Russia</option>
+        </select>
+        <br>11. Textarea: <br>
+        <textarea name="story" id="story" cols="30" rows="10">
+            Default
+        </textarea><br>
+        <input type="submit">
+
+    </form>
+</body>
+</html>
